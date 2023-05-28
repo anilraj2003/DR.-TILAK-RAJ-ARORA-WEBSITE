@@ -10,11 +10,7 @@ body{
     margin-left: 25%;
     margin-right: 25%;
 }
-#submit{
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
-}
+
 #reviewform{
     margin: 1%
 }
@@ -44,14 +40,25 @@ font-size: 40px;
 }
 
 #img_resize{
-    width: 430px;
-    height: 320px;
+    width: 40.3%;
+    height: 30%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+#img_resize{
+@media( max-width :480px)
+{
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+    
 }
 iframe{
     border: 2px solid black
-    ra
 }
-.caro_img{
+.caro_img_1{
     width: 100%;
     height: 100%;
   }
@@ -69,8 +76,8 @@ flex-direction: column;
 .quote{
 /* flex: ; */
 width: 80%;
-margin: 10px;
-padding: 30px;
+margin: 1%;
+padding: 3%;
 text-align: center;
 text-transform: uppercase;
 transition: 0.5s;
@@ -112,4 +119,39 @@ text-decoration: none;
 .quote:hover{
 font-size: large;
 font-weight: bold;
+}
+#dots {
+    text-decoration: none;
+  }
+  
+  .hide-content {
+    display: none;
+  }
+#caro_img{
+    width: 100%;
+}
+#caro_text{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+#dots {
+    text-decoration: none;
+  }
+  
+  .hide-content {
+    display: none;
+  }
+.homeo_text{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.homeo_text{
+@media( max-width :480px)
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+}
 }
